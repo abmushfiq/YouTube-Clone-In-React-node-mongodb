@@ -1,64 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header'
+import HomePage from "./Pages/Homepage";
 
 function App() {
   return (
     <div className="app">
       
-      {/* Header */}
-      <Header />
-
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      <h1>test</h1>
-      {/* Sidebar */}
-      {/* Recomended Video */}
+     <HomePage />
 
     </div>
   );

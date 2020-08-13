@@ -3,4 +3,11 @@
     background-color:#f9f9f9;
     padding: 20px 40px;
     padding-bottom: 0;
+    
+}
+
+.videocard__frontview__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

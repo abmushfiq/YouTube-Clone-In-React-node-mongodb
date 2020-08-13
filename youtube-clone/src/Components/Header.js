@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Header.css'
 import MenuIcon from '@material-ui/icons/MenuSharp'
 import SearchIcon from '@material-ui/icons/Search' 
@@ -9,6 +9,9 @@ import Avatar from '@material-ui/core/Avatar'
 
 
 function Header() {
+
+    const [inputSearch, setInputSearch] = useState("");
+
     return (
         <div className='header'>
 
@@ -21,7 +24,7 @@ function Header() {
             </div>
 
             <div className='header__input'>
-            <input type='text' placeholder='Search'/>
+            <input onChange={e => setInputSearch} type='text' placeholder='Search'  value= {inputSearch}/>
             <SearchIcon className='header__inputButton' />
 
             </div>

@@ -9,7 +9,7 @@ function HomePage() {
     <div className="app">
       
       {/* Header */}
-      <Header />
+      {/* <Header /> */}
 
       <div className='page-container'>
       {/* Sidebar */}

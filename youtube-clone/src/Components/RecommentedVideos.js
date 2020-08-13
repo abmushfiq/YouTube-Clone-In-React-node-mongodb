@@ -17,6 +17,15 @@ function RecommentedVideos() {
             <VideoCard  title='Netflix database structure' image ={Tumb2} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={NetImg}/>
             <VideoCard  title='How to bougth own new car' image ={Tumb3} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb3} />
             <VideoCard  title='Think different' image ={Tumb4} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb4}/>
+            <VideoCard  title='How to use youtube' image ={Tumb1} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={YouImg}/>
+            <VideoCard  title='Netflix database structure' image ={Tumb2} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={NetImg}/>
+            <VideoCard  title='How to bougth own new car' image ={Tumb3} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb3} />
+            <VideoCard  title='Think different' image ={Tumb4} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb4}/>
+            <VideoCard  title='How to use youtube' image ={Tumb1} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={YouImg}/>
+            <VideoCard  title='Netflix database structure' image ={Tumb2} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={NetImg}/>
+            <VideoCard  title='How to bougth own new car' image ={Tumb3} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb3} />
+            <VideoCard  title='Think different' image ={Tumb4} channel='Youtube' views='2.3M Views' timestaps='1 day ago' channelImage={Tumb4}/>
+            
             <VideoCard />
             </div>
         </div>

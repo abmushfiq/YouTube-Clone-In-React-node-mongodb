@@ -6,6 +6,7 @@ import AppsSharp from '@material-ui/icons/AppsSharp'
 import VideoCallSharp from '@material-ui/icons/VideoCallSharp'
 import NotificationsSharp from '@material-ui/icons/NotificationsSharp'
 import Avatar from '@material-ui/core/Avatar'
+import { Link} from 'react-router-dom'
 
 
 function Header() {
@@ -17,16 +18,20 @@ function Header() {
 
             <div className='header__left'>
         <MenuIcon />
+
+        <Link to ={`/`}>
         <img 
             className='header__logo'
             src='https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_of_YouTube_%282015-2017%29.svg' alt='Youtube'/>
-
+        </Link>
             </div>
 
             <div className='header__input'>
-            <input onChange={e => setInputSearch} type='text' placeholder='Search'  value= {inputSearch}/>
-            <SearchIcon className='header__inputButton' />
+            <input onChange={e => setInputSearch(e.target.value)} type='text' placeholder='Search'  value= {inputSearch}/>
 
+            <Link to={`/search/${inputSearch}`}>
+            <SearchIcon className='header__inputButton' />
+            </Link>
             </div>
             
             <div className='header__icons'>
